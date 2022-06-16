@@ -14,8 +14,18 @@
 will perform when entering or exiting a particular directory.
 
 This tutorial will give you an overview of how to set up `direnv` on the
-various supercomputers that `AWI-ESM` currently is running on. As always, a
-video guide as well as text documentation is provided.
+various supercomputers that `AWI-ESM` currently is running on. To this end 
+the shell environment has to be updated. For ease of use, such changes to the
+shell environment should become available as soon as you login to Levante. To this end
+updates to the shell environment will be implemented in shell configuration files
+that are automatically executed whenever you login to the DKRZ computing system
+Levante. There are various such files available on any linux system. Examples are
+configuration files .bashrc and .bash_profile that are hidden files residing in your
+home folder. Which one you chose for implementing the changes below is really up to you.
+Note, that if you have your environment configured to use other (login) shells than the bash
+you might have to choose configuration files that are specific to your shell for
+implementing below described modifications. As always, a video guide as well as text
+documentation is provided.
 
 ## Setting up `direnv`
 
